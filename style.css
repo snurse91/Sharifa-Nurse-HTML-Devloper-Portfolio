@@ -191,7 +191,7 @@ padding: 0.5px;
 }
 
 #contact #coffee-question {
-  color: var(--tertiary);
+  color: var(--accent);
   font-size: 30px;
   font-style: italic;
   font-weight: bold;
