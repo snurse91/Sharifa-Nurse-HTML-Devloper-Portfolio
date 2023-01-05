@@ -35,7 +35,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: var(--accent);
+    background-color: var(--tertiary);
     padding: 20px 0;
     font-size: 20px;
     border-bottom: 1px solid var(--neutral-focus);
@@ -50,7 +50,7 @@
   .nav-links a {
     text-decoration: none;
     padding: 0 10px;
-    color: var(--tertiary);
+    color: var(--accent);
   }
 
   .nav-links a:hover {
@@ -63,7 +63,7 @@
   }
 
   #welcome-section {
-    background-color: var(--tertiary);
+    background-color: var(--accent);
     color: var(--base-100);
     display: flex;
     flex-direction: column;
@@ -71,13 +71,13 @@
 
   #welcome-section h1 {
     margin-top: 30vh;
-    color: var(--accent);
+    color: var(--tertiary);
     font-family: "dancing script";
   }
 
   #welcome-section p {
-    color: var(--accent);
-    font-size: 25px;
+    color: var(--tertiary);
+    font-size: 27px;
     margin: 25px 0;
     font-style: italic;
     font-weight: bold;
@@ -85,16 +85,16 @@
   }
 
   #projects {
-    background-color: var(--tertiary);
-    color: var(--accent) ;
+    background-color: var(--accent);
+    color: var(--tertiary) ;
   }
 
   #projects h1 {
-    border-bottom: 5px solid var(--accent);
+    border-bottom: 5px solid var(--tertiary);
     width: fit-content;
     margin: auto;
     font-family: "dancing script";
-    color: var(--accent);
+    color: var(--tertiary);
   }
 
   #projects .projects {
@@ -114,8 +114,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: var(--accent);
-    color: var(--tertiary);
+    background-color: var(--tertiary);
+    color: var(--accent);
     border-radius: 5px;
     box-shadow: 8px 8px 10px 5px rgba(100, 100, 100, 0.3);
     text-decoration: none;
@@ -134,7 +134,7 @@
     place-items: center;
     display: block;
     margin: 0px auto;
-    border: 5px solid var(--accent);
+    border: 7px solid var(--tertiary);
     transition: transform 0.2s ease-in;
   }
 
@@ -182,8 +182,8 @@ padding: 0.5px;
 }
 
 #contact {
-  background-color: var(--accent);
-  color: var(--tertiary);
+  background-color: var(--tertiary);
+  color: var(--accent);
 }
 
 #contact h1 {
@@ -192,7 +192,7 @@ padding: 0.5px;
 }
 
 #contact #coffee-question {
-  color: var(--accent);
+  color: var(--tertiary);
   font-size: 30px;
   font-style: italic;
   font-weight: bold;
@@ -206,6 +206,7 @@ padding: 0.5px;
   justify-content: space-around;
   margin: auto;
   margin-top: 30px; 
+  font-size: 20px;
   
 }
 
@@ -225,9 +226,10 @@ padding: 0.5px;
 
 footer {
   border-top: 3px solid var(--accent);
-  color: var(--accent);
+  color: var(--tertiary);
   font-size: 25px;
   padding: 30px;
+  background-color: var(--accent);
 }
 
 @media only screen and (width < 700px) {
@@ -241,77 +243,102 @@ footer {
 }
 
 #select #select-box {
-  color: var(--accent);
-  background-color: var(--tertiary);
+  color: var(--tertiary);
+  background-color: var(--accent);
 }
 
-#skills {
-  align: right;
-}
-
-#about {
-  align: center;
-}
-
-#skill-js {
-  text-decoration: none;
+.skill-js {
   color: blue;
   transition: transform 0.2s ease-in;
-  display: flex;
   align-items: center;
   margin: 20px;
   font-size: 80px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
 } 
-#skill-html5 {
-text-decoration: none;
+
+.skill-js:hover {
+  transform: translateY(10px);
+}
+.skill-html5 {
   color: red;
   transition: transform 0.2s ease-in;
-  display: flex;
   align-items: center;
   margin: 20px;
   font-size: 80px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
 }
 
-#skill-css3 {
-  text-decoration: none;
+.skill-html5:hover {
+  transform: translateY(10px);
+}
+
+.skill-css3 {
   color: blue;
   transition: transform 0.2s ease-in;
-  display: flex;
   align-items: center;
   margin: 20px;
   font-size: 75px;  
+  display: flex;
+  flex: 1;
+  justify-content: center;
 }
 
-#skill-node {
-  text-decoration: none;
+.skill-css3:hover {
+  transform: translateY(10px);
+}
+
+.skill-node {
   color: rgb(38, 182, 38);
   transition: transform 0.2s ease-in;
-  display: flex;
-  align-items: center;
-  margin: 20px;
-  font-size: 80px;   
-}
-
-#skill-github {
-  text-decoration: none;
-  color: black;
-  transition: transform 0.2s ease-in;
-  display: flex;
   align-items: center;
   margin: 20px;
   font-size: 80px;  
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.skill-node:hover {
+  transform: translateY(10px);
+}
+
+.skill-github {
+  color: black;
+  transition: transform 0.2s ease-in;
+  align-items: center;
+  margin: 20px;
+  font-size: 80px;  
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.skill-github:hover {
+  transform: translateY(10px);
 }
 
 #info {
-  background: var(--accent);
+background-color: #e93d79;
 }
 
-#about {
-color: var(--tertiary);
+#skill-set {
+color: var(--accent);
+font-size: 55px;
+font-family: "dancing script";
 }
-
+ 
 #skills {
-color: color: var(--tertiary);
-font-size: 40px;
+display: flex;
+flex-wrap: wrap;
+flex: 1.5em;
+min-height: 100vh;
+align-items: center;
+justify-content:space-around;
+padding-bottom: 150px;
+margin: auto;
 }
 
