@@ -90,7 +90,6 @@
   }
 
   #projects h1 {
-    border-bottom: 5px solid var(--tertiary);
     width: fit-content;
     margin: auto;
     font-family: "dancing script";
