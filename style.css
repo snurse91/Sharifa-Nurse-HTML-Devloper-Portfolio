@@ -85,16 +85,16 @@
   }
 
   #projects {
-    background-color: var(--accent);
-    color: var(--tertiary) ;
+    background-color: var(--tertiary);
+    color: var(--accent) ;
   }
 
   #projects h1 {
-    border-bottom: 5px solid var(--tertiary);
+    border-bottom: 5px solid var(--accent);
     width: fit-content;
     margin: auto;
     font-family: "dancing script";
-    color: var(--tertiary);
+    color: var(--accent);
   }
 
   #projects .projects {
@@ -114,8 +114,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: var(--tertiary);
-    color: var(--accent);
+    background-color: var(--accent);
+    color: var(--tertiary);
     border-radius: 5px;
     box-shadow: 8px 8px 10px 5px rgba(100, 100, 100, 0.3);
     text-decoration: none;
@@ -182,8 +182,8 @@ padding: 0.5px;
 }
 
 #contact {
-  background-color: var(--tertiary);
-  color: var(--accent);
+  background-color: var(--accent);
+  color: var(--tertiary);
 }
 
 #contact h1 {
@@ -243,5 +243,75 @@ footer {
 #select #select-box {
   color: var(--accent);
   background-color: var(--tertiary);
+}
+
+#skills {
+  align: right;
+}
+
+#about {
+  align: center;
+}
+
+#skill-js {
+  text-decoration: none;
+  color: blue;
+  transition: transform 0.2s ease-in;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  font-size: 80px;
+} 
+#skill-html5 {
+text-decoration: none;
+  color: red;
+  transition: transform 0.2s ease-in;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  font-size: 80px;
+}
+
+#skill-css3 {
+  text-decoration: none;
+  color: blue;
+  transition: transform 0.2s ease-in;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  font-size: 75px;  
+}
+
+#skill-node {
+  text-decoration: none;
+  color: rgb(38, 182, 38);
+  transition: transform 0.2s ease-in;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  font-size: 80px;   
+}
+
+#skill-github {
+  text-decoration: none;
+  color: black;
+  transition: transform 0.2s ease-in;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  font-size: 80px;  
+}
+
+#info {
+  background: var(--accent);
+}
+
+#about {
+color: var(--tertiary);
+}
+
+#skills {
+color: color: var(--tertiary);
+font-size: 40px;
 }
 
