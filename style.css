@@ -64,6 +64,8 @@
 
   #welcome-section {
     background-color: var(--accent);
+    background: url(https://data.whicdn.com/images/310222407/original.gif);
+    background-size: cover;
     color: var(--base-100);
     display: flex;
     flex-direction: column;
