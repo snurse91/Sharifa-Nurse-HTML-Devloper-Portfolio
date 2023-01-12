@@ -64,11 +64,11 @@
 
   #welcome-section {
     background-color: var(--accent);
-    background: url(https://data.whicdn.com/images/310222407/original.gif);
-    background-size: cover;
     color: var(--base-100);
     display: flex;
     flex-direction: column;
+    background: url(https://data.whicdn.com/images/310222407/original.gif);
+    background-size: cover;
   }
 
   #welcome-section h1 {
@@ -89,6 +89,7 @@
   #projects {
     background-color: var(--accent);
     color: var(--tertiary) ;
+   
   }
 
   #projects h1 {
@@ -184,7 +185,9 @@ padding: 0.5px;
 
 #contact {
   background-color: var(--tertiary);
-  color: var(--accent);
+  color:  #e70453;
+  background: url(https://68.media.tumblr.com/2cc944b1b01a6f37f600d62f3c9feb87/tumblr_oiv706f6v41vjs6ulo3_500.gif);
+  background-size: cover;
 }
 
 #contact h1 {
@@ -193,7 +196,7 @@ padding: 0.5px;
 }
 
 #contact #coffee-question {
-  color: var(--accent);
+  color:  #e70453;
   font-size: 30px;
   font-style: italic;
   font-weight: bold;
@@ -213,12 +216,13 @@ padding: 0.5px;
 
 #contact #profile-link {
   text-decoration: none;
-  color: var(--accent);
+  color: #e70453;
   transition: transform 0.2s ease-in;
   display: flex;
   align-items: center;
   margin: 20px;
-  font-size: 22px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 #contact #profile-link:hover {
@@ -227,7 +231,7 @@ padding: 0.5px;
 
 footer {
   border-top: 3px solid var(--accent);
-  color: var(--tertiary);
+  color: #e70453;
   font-size: 25px;
   padding: 30px;
   background-color: var(--accent);
